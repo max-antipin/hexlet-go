@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hexlet-go/greeting"
+)
 
 func main() {
-	fmt.Println("Hello, my little filthy bitch!")
+	fmt.Println(greeting.Get())
 }
